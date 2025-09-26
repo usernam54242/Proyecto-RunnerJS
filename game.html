@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RunnerJS - El Dinosaurio</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>RunnerJS</h1>
+        <canvas id="gameCanvas" width="800" height="200"></canvas>
+        <div id="hud">
+            Puntuación: <span id="scoreDisplay">0</span> |
+            Máxima Puntuación: <span id="highScoreDisplay">0</span> |
+            Nivel: <span id="levelDisplay">1</span>
+        </div>
+        <button id="startButton">Iniciar Juego</button>
+        <div id="gameOverScreen" style="display:none;">
+            <h2>¡GAME OVER!</h2>
+            <p>Tu puntuación final es: <span id="finalScore">0</span></p>
+            <input type="text" id="playerName" placeholder="Tu Nombre" maxlength="10">
+            <button id="saveScoreButton">Guardar Puntuación</button>
+            <button id="restartButton">Reiniciar</button>
+        </div>
+    </div>
+
+    <div id="leaderboard-container">
+        <h2>🏆 Leaderboard (Mejores Puntuaciones)</h2>
+        <ul id="leaderboardList">
+            </ul>
+    </div>
+
+    <script src="api.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
