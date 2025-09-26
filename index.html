@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Proyecto Integrador - RunnerJS</title>
+<style>
+ /* Estilos generales */
+ body {
+ font-family: "Segoe UI", Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+ background: linear-gradient(to bottom, #e8f5e9, #ffffff);
+color: #333;
+ }
+
+ /* Encabezado */
+ header {
+ background: #2e7d32;
+ color: white;
+ padding: 1rem;
+ text-align: center;
+ box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+ position: sticky;
+ top: 0;
+ z-index: 1000;
+ }
+
+ nav a {
+ color: white;
+ margin: 0 15px;
+ text-decoration: none;
+ font-weight: 500;
+ transition: color 0.3s;
+ }
+
+ nav a:hover {
+ color: #a5d6a7;
+ }
+
+ /* Contenedor principal */
+ .container {
+ padding: 30px 20px;
+ max-width: 1200px;
+ margin: auto;
+ }
+
+ h1 {
+ color: #1b5e20;
+ text-align: center;
+ margin-bottom: 10px;
+ }
+
+ p {
+ text-align: center;
+ color: #555;
+}
+
+ /* Tarjetas */
+ .cards {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 20px;
+ justify-content: center;
+ margin-top: 20px;
+ }
+
+ .card {
+ background: white;
+ border-radius: 12px;
+ padding: 20px;
+ width: 250px;
+ text-align: center;
+ box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+ transition: transform 0.2s, box-shadow 0.2s;
+ }
+
+ .card:hover {
+ transform: translateY(-5px);
+ box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+ }
+
+ .card h3 {
+ margin-bottom: 10px;
+ color: #2e7d32;
+ }
+
+ .card a {
+ text-decoration: none;
+ background: #43a047;
+ color: white;
+ padding: 8px 12px;
+ border-radius: 6px;
+  display: inline-block;
+ margin-top: 10px;
+ transition: background 0.3s;
+ }
+
+.card a:hover {
+background: #2e7d32;
+ }
+
+ .game-card {
+ background: #f1f8e9;
+ border: 2px solid #66bb6a;
+ }
+
+ footer {
+ text-align: center;
+  padding: 15px;
+ background: #2e7d32;
+ color: white;
+ margin-top: 40px;
+ font-size: 14px;
+ }
+ </style>
+</head>
+<body>
+ <header>
+<nav>
+ <a href="index.html">Inicio</a>
+ <a href="#practicas">Prácticas</a>
+ <a href="index.html" target="_blank">Proyecto (Documentación)</a> 
+ </nav>
+ </header>
+
+<div class="container">
+ <h1>🌿 Proyecto Integrador: RunnerJS 🌿</h1>
+ <p>Aplicación de HTML5, CSS3, JavaScript y Node.js con Leaderboard.</p>
+
+ <h2 style="text-align:center; margin-top:30px; color:#1b5e20;">Juego Integrador</h2>
+ <div class="cards">
+ <div class="card game-card">
+ <h3>🚀 Jugar RunnerJS 🚀</h3>
+ <p>¡Corre, salta y evita los obstáculos!</p>
+ <a href="game.html">Iniciar Juego</a>
+ </div>
+ </div>
+
+ <h2 id="practicas" style="text-align:center; margin-top:40px; color:#1b5e20;">Prácticas Anteriores</h2>
+ <div class="cards">
+ <div class="card">
+ <h3>Práctica 1</h3>
+ <p>Mi primera página web.</p>
+ <a href="../../1act/index.html">Ver Práctica</a>
+ </div>
+
+ <div class="card">
+ <h3>Práctica 2</h3>
+ <p>Login.</p>
+ <a href="../../2Actlogin/index.html">Ver Práctica</a>
+ </div>
+
+ <div class="card">
+ <h3>Práctica 3 (Gemini)</h3>
+ <p>Actividad con Gemini.</p>
+ <a href="../../3Act-gemini/index.html">Ver Práctica</a>
+ </div>
+
+<div class="card">
+ <h3>Práctica 4</h3>
+ <p>Tarjeta de contacto.</p>
+ <a href="../../4taAct/index.html">Ver Práctica</a>
+ </div>
+
+ <div class="card">
+ <h3>Práctica 5</h3>
+ <p>Páginas web.</p>
+ <a href="../../5taAct/index.html">Ver Práctica</a>
+ </div>
+ </div>
+ </div>
+
+ <div class="card">
+<h3>Práctica 6</h3>
+ <p>Actividad Pagina tarot.</p>
+<a href="../../Practica3/index.html">Ver Práctica</a>
+</div>
+
+ <div class="card">
+<h3>Práctica 7</h3>
+<p>Juego de Cartas</p>
+<a href="../../Practica4/index.html">Ver Práctica</a>
+</div>
+
+ <div class="card">
+<h3>Práctica 8</h3>
+ <p>Página de Clima.</p>
+ <a href="../../Practica5/index.html">Ver Práctica</a>
+ </div>
+ </div>
+ </div>
+
+
+ <footer>
+ © 2025 - Proyecto Integrador RunnerJS | or Daniela Elian de Ing. Informática
+ </footer>
+</body>
+</html>
